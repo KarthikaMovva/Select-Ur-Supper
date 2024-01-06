@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select Ur Supper</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body id="body">
+    <!-- this nav bar contains the title and logo of the website. -->
+    <nav>               
+        <div id="leftnav">
+            <img src="./logo.png" alt="" height="80px" width="80px">
+            <div id="title">Select Ur Supper</div>
+        </div>
+    </nav>
+<!-- div with id strip contains a image in background and header box to welcomes users. -->
+    <div id="strip">
+        <img src="https://www.herofincorp.com/public/admin_assets/upload/blog/64b91a06ab1c8_food%20business%20ideas.webp" alt="">
+        <div id="header">
+            <p id="heading">Select Ur Supper</p>
+        <p id="para"> Welcome to Select Ur Supper, the website that helps you decide what to eat everyday. Whether you are looking for a quick snack, a healthy salad, a hearty soup, or a delecious dessert, we have got you covered. Just browse through our categories, choose your favorite dishes, and get ready to enjoy mouthwatering meal. Select Ur Supper is more than just a website, it is your personal guide to the world of cuisine. So what you are waiting for? Start selecting your supper today! </p>
+        </div>
+    </div>
+  <!-- div with id userinput contains the search bar and search button. -->
+    <div id="userinput">
+        <input type="text" id="inputtake">
+        <img src="./search.png" alt="" id="search">
+    </div>
+    <!-- div with id generate displays random image. -->
+    <div id="generate"></div>
+    <!-- para tag is to display a text "Search Results" or "No Results found". -->
+    <p id="divide"></p>
+    <!-- div with id table is to display the search results in table format -->
+    <div id="table">
+        <div id="list"></div>
+    </div>
+    <!-- div with id modal is to open a modal on clicking random dish. -->
+  <div id="modal">
+    <div id="content">
+       <b id="modaltitle"> How to cook?</b>
+        <span id="close">Close</span>
+    <div id="procedure">
+        <div id="needs"></div>
+        <div id="steps"></div>
+    </div>
+    <p id="address">Watch the reciepe preperation in youtube</p>
+    <p id="link"></p>
+    <p id="src">Visit website</p>
+    <p id="weblink"></p>
+    </div>
+  </div>
+  <script  src="./script.js"></script>  
+</body>
+</html>
